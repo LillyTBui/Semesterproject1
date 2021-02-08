@@ -1,0 +1,113 @@
+/** @format */
+
+body {
+  margin: 0px;
+}
+header {
+  background-color: #072950;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px 5px 10px;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+nav {
+  display: none;
+  position: fixed;
+  top: 60px;
+  background-color: #072950;
+  z-index: 1000;
+  right: 0px;
+  max-width: 130px;
+  text-align: center;
+}
+
+li {
+  display: block;
+  padding: 10px 15px;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+#hamburger-icon {
+  color: white;
+}
+
+.logo {
+  max-width: 70px;
+  margin-right: 5px;
+}
+
+.search-btn {
+  display: none;
+  position: relative;
+  padding: 10px;
+}
+
+#search-icon {
+  position: absolute;
+  left: 20px;
+  color: white;
+}
+
+#search-field {
+    border-radius: 40px;
+    border: none;
+    padding: 7px;
+    background-color: #C895DA;
+}
+
+::placeholder {
+    color: white;
+    text-align: center;
+}
+/* Links */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  padding: 0px;
+}
+
+li {
+  display: block;
+  padding: 10px;
+}
+nav a {
+  text-transform: uppercase;
+}
+
+@media (min-width: 650px) {
+  nav {
+    display: inline-flex;
+    position: static;
+    max-width: 100%;
+  }
+
+  nav li {
+    display: inline-block;
+    padding: 5px;
+  }
+
+  header label {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) {
+  .search-btn {
+    display: flex;
+  }
+}
