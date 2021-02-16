@@ -20,6 +20,8 @@
       rel="stylesheet"
     />
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/b9235904b4.js"
       crossorigin="anonymous"
@@ -29,12 +31,15 @@
     <header>
       <div>
         <a href="index.html"
-        ><img src="images/logo-sm.png" alt="Logo of community science museum" class="logo"
-      /></a>
-      <a href="index.html">Community Science Museum</a>
+          ><img
+            src="images/logo-sm.png"
+            alt="Logo of community science museum"
+            class="logo"
+        /></a>
+        <a href="index.html">Community Science Museum</a>
       </div>
       <label for="hamburger-menu"
-        ><i class="fas fa-bars 3x" id="hamburger-icon"></i
+        ><i class="fas fa-bars fa-2x" id="hamburger-icon"></i
       ></label>
       <input type="checkbox" id="hamburger-menu" />
       <nav>
@@ -45,14 +50,15 @@
           <li><a href="visit.html">Visit</a></li>
         </ul>
         <div class="search-btn">
-          <i class="fas fa-search 3x" id="search-icon"></i>
+          <i class="fas fa-search" id="search-icon"></i>
           <input type="text" placeholder="Search" id="search-field" />
         </div>
       </nav>
     </header>
 
     <main>
-      <div>
+      <section class="welcome"></section>
+      <div class="welcome-intro">
         <h2>"Explore together"</h2>
         <p>
           Come join us at the Community Science Museum where we’re committed to
@@ -60,104 +66,156 @@
         </p>
       </div>
 
-      <section>
+      <section class="intro-exhibition">
         <h2>Learn more about our exhibition</h2>
-        <!-- img -->
-        <div>
-          <h3>Have a look at our laboratories</h3>
+        <div class="intro-exhibition__grid">
+          <a href="exhibition.html">
+            <div class="intro-exhibition__laboratories intro-exhibition__wrapper">
+              <picture>
+                <source
+                  media="(min-width: 320px)"
+                  srcset="images/laboratory-sm.jpg"
+                />
+                <source
+                  media="(min-width: 650px)"
+                  srcset="images/laboratory-md.jpg"
+                />
+                <img
+                  src="images/laboratory-lg.jpg"
+                  alt="woman working in the laboratory"
+                />
+              </picture>
+              <h3>Have a look at our laboratories</h3>
+            </div>
+          </a>
+  
+          <a href="exhibition.html">
+            <div class="intro-exhibition__space intro-exhibition__wrapper">
+              <picture>
+                <source
+                  media="(min-width: 320px)"
+                  srcset="images/spaceman-sm.jpg"
+                />
+                <source
+                  media="(min-width: 650px)"
+                  srcset="images/spaceman-md.jpg"
+                />
+                <img
+                  src="images/spaceman-lg.jpg"
+                  alt="spaceman sitting inside a spaceship"
+                />
+              </picture>
+              <h3>Learn how to travel to the outer space</h3>
+            </div>
+          </a>
+          <a href="exhibition.html">
+            <div class="intro-exhibition__mammoth intro-exhibition__wrapper">
+              <img src="images/skeleton-lg.jpg" alt="skeleton of a mammoth" />
+              <h3>See the extinct animals</h3>
+            </div>
+          </a>
         </div>
-        <!-- img -->
-        <div>
-          <h3>Learn how to travel to the outer space</h3>
-        </div>
-        <!-- img -->
-        <div>
-          <h3>See the incredible dinosaurs</h3>
-        </div>
+        
       </section>
 
-      <section>
+      <section class="discover-planets">
         <h2>Discover the planets!</h2>
-        <div>
-          <!-- img -->
-          <h3>Mercury</h3>
+        <div class="discover-planets__blocks">
+          <img src="images/mercury.png" alt="drawing of mercury">
+          <a href="exhibition.html" class="light-blue-btn btn"><h3>Mercury</h3></a>
         </div>
-        <div>
-          <!-- img -->
-          <h3>Venus</h3>
+        <div class="discover-planets__blocks">
+          <img src="images/venus.png" alt="drawing of venus">
+          <a href="exhibition.html" class="light-blue-btn btn"><h3>Venus</h3></a>
         </div>
-        <div>
-          <!-- img -->
-          <h3>Earth</h3>
+        <div class="discover-planets__blocks">
+          <img src="images/earth.png" alt="drawing of earth">
+          <a href="exhibition.html" class="light-blue-btn btn"><h3>Earth</h3></a>
         </div>
-        <div>
-          <!-- img -->
-          <h3>Mars</h3>
+        <div class="discover-planets__blocks mars">
+          <img src="images/mars.png" alt="drawing of mars">
+          <a href="exhibition.html" class="light-blue-btn btn"><h3>Mars</h3></a>
         </div>
-        <div>
-          <!-- img -->
-          <h3>Jupiter</h3>
+        <div class="discover-planets__blocks jupiter">
+          <img src="images/jupiter.png" alt="drawing of jupiter">
+          <a href="exhibition.html" class="light-blue-btn btn"><h3>Jupiter</h3></a>
         </div>
-        <div>
-          <!-- img -->
-          <h3>Saturn</h3>
+        <div class="discover-planets__blocks saturn">
+          <img src="images/saturn.png" alt="drawing of saturn">
+          <a href="exhibition.html" class="light-blue-btn btn"><h3>Saturn</h3></a>
         </div>
-        <div>
-          <!-- img -->
-          <h3>Uranus</h3>
+        <div class="discover-planets__blocks uranus">
+          <img src="images/uranus.png" alt="drawing of uranus">
+          <a href="exhibition.html" class="light-blue-btn btn"><h3>Uranus</h3></a>
         </div>
-        <div>
-          <!-- img -->
-          <h3>Neptune</h3>
+        <div class="discover-planets__blocks neptune">
+          <img src="images/neptune.png" alt="drawing of neptune">
+          <a href="exhibition.html" class="light-blue-btn btn"><h3>Neptune</h3></a>
         </div>
       </section>
 
-      <section>
-        <h2>Join the young star club!</h2>
-        <p>Explore and experiment with out team of experts.</p>
-        <p>Every Saturday between 10:00 and 13:00</p>
-        <a href="explore.html">Learn more</a>
+      <section class="young-star-section">
+        <div class="young-star">
+          <div class="young-star__info">
+            <h2>Join the young star club!</h2>
+            <p>Explore and experiment with out team of experts.</p>
+            <p class="young-star__p">Every Saturday between 10:00 and 13:00</p>
+            <a href="explore.html" class="btn purple-btn">Learn more</a>
+          </div>
+        </div>
       </section>
-      <section>
-        <h2>About</h2>
-        <p>
-          The aim of our museum is to create a space where everyone can
-          experience the wonders of our discoveries and perhaps even ignite a
-          lifelong passion to continue the exploration of the world around us.
-        </p>
-        <p>
-          We believe science should not be confined to the textbook, but brought
-          to live through exhibits. This is why we have over 1000 different
-          exhibits on the many varied subjects of science to explore. Many of
-          these exhibits are designed for you to interact with and play around
-          to see science come to life (apart from the dinosaur exhibits – they
-          only come to life at night when everyone’s gone home).
-        </p>
-        <a href="exhibition.html">Explore our exhibition</a>
+      <section class="about-section">
+        <div class="about">
+          <h2>About</h2>
+          <p>
+            The aim of our museum is to create a space where everyone can
+            experience the wonders of our discoveries and perhaps even ignite a
+            lifelong passion to continue the exploration of the world around us.
+          </p>
+          <p>
+            We believe science should not be confined to the textbook, but
+            brought to live through exhibits. This is why we have over 1000
+            different exhibits on the many varied subjects of science to
+            explore. Many of these exhibits are designed for you to interact
+            with and play around to see science come to life (apart from the
+            dinosaur exhibits – they only come to life at night when everyone’s
+            gone home).
+          </p>
+          <a href="exhibition.html" class="btn blue-btn"
+            >Explore our exhibition</a
+          >
+        </div>
       </section>
     </main>
 
     <footer>
-      <div>
+      <div class="footer__about">
         <h3>About us</h3>
         <a href="visit.html">Visit</a>
       </div>
-      <div>
+      <div class="footer__social">
         <h3>Social media</h3>
-        <div>
-          <i class="fab fa-youtube"></i>
-          <a href="">Youtube</a>
-        </div>
-        <div>
-          <i class="fab fa-facebook-square"></i>
-          <a href="">Facebook</a>
-        </div>
-        <div>
-          <i class="fab fa-instagram"></i>
-          <a href="">Instagram</a>
-        </div>
+        <a href="">
+          <div class="footer__social__box">
+            <i class="fab fa-youtube fa-2x"></i>
+            <p>Youtube</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="footer__social__box">
+            <i class="fab fa-facebook-square fa-2x"></i>
+            <p>Facebook</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="footer__social__box">
+            <i class="fab fa-instagram fa-2x"></i>
+            <p>Instagram</p>
+          </div>
+        </a>
       </div>
-      <p>@Copyright 2021 Community Science Museum, All rights reserved</p>
+      <div class="break"></div>
+      <p id="copyright">@Copyright 2021 Community Science Museum, All rights reserved</p>
     </footer>
   </body>
 </html>

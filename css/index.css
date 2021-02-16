@@ -1,0 +1,94 @@
+/** @format */
+
+h2 {
+  text-align: center;
+  margin: 10px;
+}
+
+.welcome {
+  background-image: url("../images/background-sm.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+}
+
+.welcome-intro {
+  background-color: var(--color-light-blue);
+  padding: 30px 20px;
+}
+
+.welcome-intro h2 {
+  text-transform: initial;
+  text-align: initial;
+}
+
+.intro-exhibition {
+  padding: 40px 30px;
+}
+
+.intro-exhibition h3 {
+  color: var(--color-dark-blue);
+  padding: 10px;
+  text-align: center;
+}
+
+.intro-exhibition__wrapper {
+  box-shadow: 2px 2px 10px gray;
+  margin-bottom: 30px 0px;
+}
+.intro-exhibition img {
+  max-width: 100%;
+}
+.discover-planets {
+  text-align: center;
+  padding: 60px 10px;
+}
+
+.discover-planets img {
+  width: 100%;
+}
+
+.discover-planets__blocks {
+  max-width: 24vw;
+  text-align: center;
+  display: inline-block;
+}
+
+.mars,
+.jupiter,
+.saturn,
+.uranus,
+.neptune {
+  display: none;
+}
+
+.saturn {
+    margin-bottom: 30px;
+}
+.young-star {
+  background-image: url(../images/science-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  min-height: 50vh;
+  padding: 30px;
+  text-align: center;
+}
+
+.young-star__info {
+  padding: 50px 0px;
+}
+
+.about-section {
+  background-color: var(--color-light-blue);
+  text-align: center;
+}
+.about {
+  padding: 30px 10px 50px 10px;
+  margin: 0px auto;
+}
+
+.about p {
+  margin: 10px 10px 20px 10px;
+  text-align: initial;
+}
