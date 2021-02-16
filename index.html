@@ -28,7 +28,7 @@
     ></script>
   </head>
   <body>
-    <header>
+    <header class="index-header">
       <div>
         <a href="index.html"
           ><img
@@ -36,7 +36,7 @@
             alt="Logo of community science museum"
             class="logo"
         /></a>
-        <a href="index.html">Community Science Museum</a>
+        <a href="index.html"  class="logo-text">Community Science Museum</a>
       </div>
       <label for="hamburger-menu"
         ><i class="fas fa-bars fa-2x" id="hamburger-icon"></i
@@ -49,7 +49,7 @@
           <li><a href="events.html">Events</a></li>
           <li><a href="visit.html">Visit</a></li>
         </ul>
-        <div class="search-btn">
+        <div class="search-btn index-header__btn">
           <i class="fas fa-search" id="search-icon"></i>
           <input type="text" placeholder="Search" id="search-field" />
         </div>
@@ -70,7 +70,9 @@
         <h2>Learn more about our exhibition</h2>
         <div class="intro-exhibition__grid">
           <a href="exhibition.html">
-            <div class="intro-exhibition__laboratories intro-exhibition__wrapper">
+            <div
+              class="intro-exhibition__laboratories intro-exhibition__wrapper"
+            >
               <picture>
                 <source
                   media="(min-width: 320px)"
@@ -88,7 +90,6 @@
               <h3>Have a look at our laboratories</h3>
             </div>
           </a>
-  
           <a href="exhibition.html">
             <div class="intro-exhibition__space intro-exhibition__wrapper">
               <picture>
@@ -115,42 +116,55 @@
             </div>
           </a>
         </div>
-        
       </section>
 
       <section class="discover-planets">
         <h2>Discover the planets!</h2>
         <div class="discover-planets__blocks">
-          <img src="images/mercury.png" alt="drawing of mercury">
-          <a href="exhibition.html" class="light-blue-btn btn"><h3>Mercury</h3></a>
+          <img src="images/mercury.png" alt="drawing of mercury" />
+          <a href="exhibition.html" class="light-blue-btn btn"
+            ><h3>Mercury</h3></a
+          >
         </div>
         <div class="discover-planets__blocks">
-          <img src="images/venus.png" alt="drawing of venus">
-          <a href="exhibition.html" class="light-blue-btn btn"><h3>Venus</h3></a>
+          <img src="images/venus.png" alt="drawing of venus" />
+          <a href="exhibition.html" class="light-blue-btn btn"
+            ><h3>Venus</h3></a
+          >
         </div>
         <div class="discover-planets__blocks">
-          <img src="images/earth.png" alt="drawing of earth">
-          <a href="exhibition.html" class="light-blue-btn btn"><h3>Earth</h3></a>
+          <img src="images/earth.png" alt="drawing of earth" />
+          <a href="exhibition.html" class="light-blue-btn btn"
+            ><h3>Earth</h3></a
+          >
         </div>
         <div class="discover-planets__blocks mars">
-          <img src="images/mars.png" alt="drawing of mars">
+          <img src="images/mars.png" alt="drawing of mars" />
           <a href="exhibition.html" class="light-blue-btn btn"><h3>Mars</h3></a>
         </div>
         <div class="discover-planets__blocks jupiter">
-          <img src="images/jupiter.png" alt="drawing of jupiter">
-          <a href="exhibition.html" class="light-blue-btn btn"><h3>Jupiter</h3></a>
+          <img src="images/jupiter.png" alt="drawing of jupiter" />
+          <a href="exhibition.html" class="light-blue-btn btn"
+            ><h3>Jupiter</h3></a
+          >
         </div>
         <div class="discover-planets__blocks saturn">
-          <img src="images/saturn.png" alt="drawing of saturn">
-          <a href="exhibition.html" class="light-blue-btn btn"><h3>Saturn</h3></a>
+          <img src="images/saturn.png" alt="drawing of saturn" class="saturn-img"/>
+          <a href="exhibition.html" class="light-blue-btn btn"
+            ><h3>Saturn</h3></a
+          >
         </div>
         <div class="discover-planets__blocks uranus">
-          <img src="images/uranus.png" alt="drawing of uranus">
-          <a href="exhibition.html" class="light-blue-btn btn"><h3>Uranus</h3></a>
+          <img src="images/uranus.png" alt="drawing of uranus" />
+          <a href="exhibition.html" class="light-blue-btn btn"
+            ><h3>Uranus</h3></a
+          >
         </div>
         <div class="discover-planets__blocks neptune">
-          <img src="images/neptune.png" alt="drawing of neptune">
-          <a href="exhibition.html" class="light-blue-btn btn"><h3>Neptune</h3></a>
+          <img src="images/neptune.png" alt="drawing of neptune" />
+          <a href="exhibition.html" class="light-blue-btn btn"
+            ><h3>Neptune</h3></a
+          >
         </div>
       </section>
 
@@ -215,7 +229,9 @@
         </a>
       </div>
       <div class="break"></div>
-      <p id="copyright">@Copyright 2021 Community Science Museum, All rights reserved</p>
+      <p id="copyright">
+        @Copyright 2021 Community Science Museum, All rights reserved
+      </p>
     </footer>
   </body>
 </html>

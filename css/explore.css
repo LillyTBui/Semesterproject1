@@ -1,0 +1,41 @@
+
+.explore-welcome {
+    display:flex;
+    align-items: center;
+    padding: 20px 5vw;
+}
+
+.explore-welcome img{
+    max-width: 100px;
+}
+
+.explore-welcome__info {
+    margin-left: 20px;
+}
+
+.explore {
+   margin: 30px 0px;
+}
+
+.explore-btn {
+    margin: 20px 0px 0px 0px;
+}
+
+.explore img {
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.explore-text-block {
+    margin: 30px 20px;
+}
+
+.teacher-lg {
+    display: none;
+}
+
+.laboratory-img {
+    margin-bottom: 40px;
+    display: none;
+}

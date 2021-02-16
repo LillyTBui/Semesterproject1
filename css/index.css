@@ -34,7 +34,7 @@ h2 {
 
 .intro-exhibition__wrapper {
   box-shadow: 2px 2px 10px gray;
-  margin-bottom: 30px 0px;
+  margin-bottom: 30px;
 }
 .intro-exhibition img {
   max-width: 100%;
@@ -62,8 +62,8 @@ h2 {
   display: none;
 }
 
-.saturn {
-    margin-bottom: 30px;
+.saturn-img {
+    margin-bottom: 25px;
 }
 .young-star {
   background-image: url(../images/science-background.jpg);
