@@ -9,7 +9,7 @@ h2 {
   background-image: url("../images/background-sm.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 70vh;
+  min-height: 60vh;
 }
 
 .welcome-intro {
@@ -21,7 +21,9 @@ h2 {
   text-transform: initial;
   text-align: initial;
 }
-
+.welcome-btn {
+  display: none;
+}
 .intro-exhibition {
   padding: 40px 30px;
 }
@@ -32,9 +34,13 @@ h2 {
   text-align: center;
 }
 
+.intro-exhibition h2 {
+  margin: 30px;
+}
 .intro-exhibition__wrapper {
   box-shadow: 2px 2px 10px gray;
-  margin-bottom: 30px;
+  max-width: 80vw;
+  margin: 0px auto 30px auto;
 }
 .intro-exhibition img {
   max-width: 100%;

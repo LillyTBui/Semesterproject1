@@ -22,9 +22,16 @@
   .light-blue-btn {
     font-size: 0.7em;
   }
+  .welcome {
+    min-height: 70vh;
+  }
   /* Explore */
   .explore-welcome__info {
     margin-left: 30px;
+  }
+
+  footer {
+    font-size: 0.8em;
   }
 }
 
@@ -48,33 +55,6 @@
   }
   #hamburger-menu:checked ~ nav {
     display: inline-flex;
-  }
-
-  .intro-exhibition__grid {
-    display: inline-grid;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: 400px 400px;
-    grid-gap: 10px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .intro-exhibition__laboratories {
-    grid-row: 1/3;
-    grid-column: 1;
-    display: flex;
-    flex-direction: column;
-  }
-  .intro-exhibition__space {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .intro-exhibition__mammoth {
-    grid-row: 2;
-    grid-column: 2/3;
-    display:flex;
-    flex-direction: column;
   }
 
   .jupiter {
@@ -143,7 +123,7 @@
 @media (min-width: 800px) {
   .welcome {
     background-image: url("../images/background-lg.jpg");
-    min-height: 85vh;
+    min-height: 70vh;
   }
   .welcome h2 {
     font-size: 0.9em;
@@ -155,7 +135,7 @@
     display: inline-block;
     max-width: 130px;
     position: absolute;
-    top: 110px;
+    top: 90px;
     left: 0;
     font-size: 1.1em;
   }
@@ -181,13 +161,54 @@
 
   .welcome-intro {
     position: absolute;
-    bottom: 100px;
-    max-width: 200px;
+    bottom: 210px;
+    max-width: 190px;
     background-color: transparent;
     color: white;
-    font-size: 0.85em;
+    font-size: 0.8em;
   }
 
+  .welcome-btn {
+    display: initial;
+    color: var(--color-dark-blue);
+    position: absolute;
+    right: 10px;
+    bottom: 220px;
+    background-color: var(--color-purple);
+  }
+  
+  .intro-exhibition__wrapper {
+    margin-bottom: auto;
+  }
+  .intro-exhibition__grid {
+    display: grid;
+    grid-template-columns: 537px 210px;
+    grid-template-rows: 210px;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+
+  .intro-exhibition h3 {
+    font-size: 0.9em;
+  }
+
+  .intro-exhibition__laboratories {
+    grid-row: 1/3;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .intro-exhibition__space {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro-exhibition__mammoth {
+    grid-row: 2;
+    grid-column: 2/3;
+    display:flex;
+    flex-direction: column;
+  }
   .saturn {
     display: inline-block;
   }
@@ -257,5 +278,21 @@
   }
   .light-blue-btn {
     font-size: 0.9em;
+  }
+
+  .intro-exhibition__grid {
+    grid-template-columns: 680px 291px;
+    grid-template-rows: 250px;
+  }
+
+  .welcome {
+    min-height: 100vh;
+  }
+  .welcome-btn {
+    bottom: 10px;
+    right: 50px;
+  }
+  .welcome-intro {
+    bottom: 10px;
   }
 }
