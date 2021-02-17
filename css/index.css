@@ -45,6 +45,11 @@ h2 {
 .intro-exhibition img {
   max-width: 100%;
 }
+
+.intro-exhibition img:hover {
+  opacity: 0.8;
+}
+
 .discover-planets {
   text-align: center;
   padding: 60px 10px;
@@ -69,7 +74,7 @@ h2 {
 }
 
 .saturn-img {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 .young-star {
   background-image: url(../images/science-background.jpg);

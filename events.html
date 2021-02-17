@@ -1,64 +1,145 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Community Science Museum | Special events and exhibitions</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/events.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/b9235904b4.js"
       crossorigin="anonymous"
     ></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <!--place nav-->
+      <div>
+        <a href="index.html"
+          ><img
+            src="images/logo-sm.png"
+            alt="Logo of community science museum"
+            class="logo"
+        /></a>
+        <a href="index.html" class="logo-text">Community Science Museum</a>
+      </div>
+      <label for="hamburger-menu"
+        ><i class="fas fa-bars fa-2x" id="hamburger-icon"></i
+      ></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <ul>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="exhibition.html">Exhibition</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="visit.html">Visit</a></li>
+        </ul>
+        <div class="search-btn">
+          <i class="fas fa-search" id="search-icon"></i>
+          <input type="text" placeholder="Search" id="search-field" />
+        </div>
+      </nav>
     </header>
     <main>
-      <section>
-        <div>
+      <section class="events-welcome">
+        <div class="events-welcome__info">
           <h1>Special Events and Exhibitions</h1>
           <p>News</p>
         </div>
       </section>
 
-      <section>
-        <div>
-          <!-- img -->
-          <h2>Night in the museum</h2>
-        </div>
+      <section class="events">
+        <div class="events-wrapper">
+          <div class="event-position">
+            <img
+              src="images/night-at-museum.jpg"
+              alt="person looking at an elephant in the museum lobby"
+            />
+            <h2 class="event-h2">Night in the museum</h2>
+            <div class="overlay">
+              <div class="overlay-text">
+                <h2>Night in the museum</h2>
+                <p>
+                  Get your family together for an exciting night in the museum as
+                  you sleep over beside dinosaurs and science displays. Bring your
+                  own sleeping bag and get ready to rough it as we go exploring
+                  the wonders of science.
+                </p>
+              </div>
+            </div>
+          </div>
 
-        <div>
-          <!-- img -->
-          <h2>Sheila Widnall</h2>
-        </div>
+          <div class="event-position">
+            <img
+              src="images/sheila.jpg"
+              alt="picture of Professor of Aeronautics, Sheila Widnal"
+            />
+            <h2 class="event-h2">Sheila Widnall</h2>
+            <div class="overlay">
+              <div class="overlay-text">
+                <h2>Sheila Widnall</h2>
+                <p>
+                  It is our pleasure to announce that Prof Sheila Widnall from the
+                  Massachusetts Institute of Technology will be delivering 3
+                  lectures on the development of aeronautics and where the future
+                  lies in this exciting ‘space’.
+                </p>
+              </div>
+            </div>
+          </div>
 
-        <div>
-          <!-- img -->
-          <h2>Energetica Exhibition on Loan</h2>
+          <div class="event-3 event-position">
+            <img src="images/energetica.jpg" alt="picture of solar panel" />
+            <h2 class="event-h2">Energetica Exhibition on Loan</h2>
+            <div class="overlay">
+              <div class="overlay-text">
+                <h2>Energetica Exhibition on Loan</h2>
+                <p>
+                  On loan from the NEMO Science Museum in Amsterdam, the
+                  Energetica exhibition is coming to the Community Science Museum.
+                  It’s a series of installations that allow visitors to experience
+                  the power of the elements as we harness them. From solar energy
+                  powering lighting, to ‘Wind Island’ that shows how turbines are
+                  able to use and control wind to create power.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
     <footer>
-        <div>
-          <h3>About us</h3>
-          <a href="visit.html">Visit</a>
-        </div>
-        <div>
-          <h3>Social media</h3>
-          <div>
-            <i class="fab fa-youtube"></i>
-            <a href="">Youtube</a>
+      <div class="footer__about">
+        <h3>About us</h3>
+        <a href="visit.html">Visit</a>
+      </div>
+      <div class="footer__social">
+        <h3>Social media</h3>
+        <a href="">
+          <div class="footer__social__box">
+            <i class="fab fa-youtube fa-2x"></i>
+            <p>Youtube</p>
           </div>
-          <div>
-            <i class="fab fa-facebook-square"></i>
-            <a href="">Facebook</a>
+        </a>
+        <a href="">
+          <div class="footer__social__box">
+            <i class="fab fa-facebook-square fa-2x"></i>
+            <p>Facebook</p>
           </div>
-          <div>
-            <i class="fab fa-instagram"></i>
-            <a href="">Instagram</a>
+        </a>
+        <a href="">
+          <div class="footer__social__box">
+            <i class="fab fa-instagram fa-2x"></i>
+            <p>Instagram</p>
           </div>
-        </div>
-        <p>@Copyright 2021 Community Science Museum, All rights reserved</p>
-      </footer>
-</body>
+        </a>
+      </div>
+      <div class="break"></div>
+      <p id="copyright">
+        @Copyright 2021 Community Science Museum, All rights reserved
+      </p>
+    </footer>
+  </body>
 </html>
