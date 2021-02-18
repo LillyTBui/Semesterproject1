@@ -98,6 +98,16 @@ li {
     text-align: center;
 }
 
+.sub-header-welcome {
+  background-color: var(--color-light-blue);
+  padding: 30px 20px;
+}
+
+.sub-header {
+  padding-left: 20px;
+  border-left: 4px solid var(--color-dark-blue);
+}
+
 /* footer */
 
 footer {

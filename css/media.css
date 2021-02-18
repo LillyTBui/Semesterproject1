@@ -34,8 +34,13 @@
   }
 
   /* Events */
-  .events-welcome {
+  .sub-header-welcome {
     padding: 40px;
+  }
+
+  /* Visit */
+  .visit-extra-box {
+    max-width: 60vw;
   }
 }
 
@@ -122,6 +127,7 @@
   .explore img {
     height: 50vh;
   }
+
 }
 
 @media (min-width: 800px) {
@@ -259,7 +265,7 @@
   }
 
   /* Events */
-  .events-welcome {
+  .sub-header-welcome {
     padding: 40px 70px;
   }
   .event-position {
@@ -284,6 +290,42 @@
 
   .events-wrapper h2 {
     bottom: 0px;
+  }
+
+   /* Visit */
+   .visit-info {
+     display: grid;
+     grid-template-columns: 50% 45%;
+     grid-template-rows: 350px 300px;
+     grid-gap: 25px;
+     margin: 40px 30px;
+   }
+
+   .visit-info > * {
+     margin: 0px;
+   }
+
+   .visit-map {
+    max-width: 40vw;
+  }
+
+  .visit-img {
+    display: initial;
+    max-width: 40vw;
+    grid-column: 2;
+  }
+  .visit-info__location {
+    margin-top: 0px;
+  }
+
+  .visit-extra-info {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .visit-extra-box {
+    height: 500px;
+    margin: 40px 15px;
   }
 }
 
