@@ -6,20 +6,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Community Science Museum | Exhibition spaces</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/exhibition.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/b9235904b4.js"
       crossorigin="anonymous"
     ></script>
-    <script src="javascript.js"></script>
+    <script src="javascript/javascript.js"></script>
   </head>
   <body>
     <header>
-      <!--place nav-->
+      <div>
+        <a href="index.html"
+          ><img
+            src="images/logo-sm.png"
+            alt="Logo of community science museum"
+            class="logo"
+        /></a>
+        <a href="index.html" class="logo-text">Community Science Museum</a>
+      </div>
+      <label for="hamburger-menu"
+        ><i class="fas fa-bars fa-2x" id="hamburger-icon"></i
+      ></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <ul>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="exhibition.html" class="active">Exhibition</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="visit.html">Visit</a></li>
+        </ul>
+        <div class="search-btn">
+          <i class="fas fa-search" id="search-icon"></i>
+          <input type="text" placeholder="Search" id="search-field" />
+        </div>
+      </nav>
     </header>
 
     <main>
-      <section>
-        <div>
+      <section class="sub-header-welcome exhibition-welcome">
+        <div class="sub-header">
           <h1>Exhibition Spaces</h1>
           <p>Have a look at what you can see at our museum</p>
         </div>
@@ -42,8 +69,8 @@
         <a id="medicine">Medicine</a>
       </section>
 
-      <section id="cosmology">
-        <div>
+      <section class="exhibition-cosmology exhibition-block">
+        <div class="exhibition-block__text">
           <h2>Cosmology</h2>
           <p>
             Explore the wonders of our cosmos. Our fantastic exhibition, ‘The
@@ -60,30 +87,32 @@
         </div>
       </section>
 
-      <section id="robotics">
+      <section id="robotics" class="exhibition-same">
         <h2>Robotics and AI</h2>
-        <div>
-          <!-- img -->
-          <p>
-            The information revolution is here and robotics and artificial
-            intelligence are the science of the future. From useful home
-            applications of AI to industrial uses of robotics, the future is
-            here. You can even say hello and shake the hand of Rob the Robot.
-          </p>
+        <div class="exhibition-robotics__container">
+          <img src="images/girl-robot.jpg" alt="girl holding hands with a robot" class="exhibition-img">
+          <div class="exhibition__text exhibition-robotics__text">
+            <p>
+              The information revolution is here and robotics and artificial
+              intelligence are the science of the future. From useful home
+              applications of AI to industrial uses of robotics, the future is
+              here. You can even say hello and shake the hand of Rob the Robot.
+            </p>
+          </div>
         </div>
-
-        <div>
-          <!-- img -->
+      </section>
+      <div class="robot-game">  
+        <img src="images/robot.png" alt="smiling animated robot">
+        <div class="robot-game__text">
           <h2>Wanna learn more about Robots?</h2>
           <p>
             Navigate Rob the Robot through the museum in our interactive game.
           </p>
-          <a href="">Play game</a>
+          <a href="" class="btn purple-btn robot-btn">Play game</a>
         </div>
-      </section>
-
-      <section id="evolution">
-        <div>
+      </div>
+      <section id="evolution" class="exhibition-same exhibition-evolution__container">
+        <div class="exhibition__text exhibition-evolution__text">
           <h2>Evolution</h2>
           <p>
             For centuries, philosophers and scientists have wrestled with the
@@ -97,49 +126,51 @@
             meet a few of the creatures who didn’t survive, including our Woolly
             Mammoth, the Dodos, and a number of dinosaurs too.
           </p>
-          <!-- img -->
         </div>
-
-        <div>
-          <div>
-            <h2>Random dinosaur name generator!</h2>
-          </div>
-          <div>
-            <p id="dinosaurName"></p>
-            <p id="nameMeaning"></p>
-          </div>
-          <button onclick="newName(), meaning()">Click on me!</button>
-        </div>
+        <img src="images/dinosaur.jpg" alt="picture of a tyrannosaurus rex" class="exhibition-img" >
       </section>
-
-      <section>
+      <div class="exhibition-container name-generator">
+        <div class="sub-header name-generator__text">
+          <h2>Random dinosaur name generator!</h2>
+        </div>
+        <div class="name-generator__meaning">
+          <p id="dinosaurName"></p>
+          <p id="nameMeaning"></p>
+        </div>
+        <button onclick="newName(), meaning()" class="button">
+          Click on me!
+        </button>
+      </div>
+      <section class="exhibition-same">
         <h2>Biology and medicine</h2>
-        <!-- img -->
-        <div>
-          <p>
-            From micro-organisms to the human body, major breakthroughs in
-            biology are offering us unique insights into the great wonders of
-            the tiny world.
-          </p>
-        </div>
-        <div>
-          <p>
-            For many people their life expectancy is much longer and their
-            quality of life much improved, thanks to the growth of our
-            understanding of medicine. Over a series of exhibits we explore the
-            history of medicine and take a look at some major breakthroughs
-            including the discovery of penicillin and the first heart
-            transplant.
-          </p>
-          <p>
-            Many of our great medicinal discoveries have come not only from the
-            lab, but also from observing animals in the wild. Often our fellow
-            creatures have beat us to it.
-          </p>
+        <div class="exhibition-biology-container">
+          <img src="images/heart.jpg" alt="plastic model of a human heart" class="exhibition-img" />
+          <div class="exhibition__text exhibition-biology1">
+            <p>
+              From micro-organisms to the human body, major breakthroughs in
+              biology are offering us unique insights into the great wonders of
+              the tiny world.
+            </p>
+          </div>
+          <div class="exhibition__text exhibition-biology2">
+            <p class="exhibition-biology2-p">
+              For many people their life expectancy is much longer and their
+              quality of life much improved, thanks to the growth of our
+              understanding of medicine. Over a series of exhibits we explore
+              the history of medicine and take a look at some major
+              breakthroughs including the discovery of penicillin and the first
+              heart transplant.
+            </p>
+            <p>
+              Many of our great medicinal discoveries have come not only from
+              the lab, but also from observing animals in the wild. Often our
+              fellow creatures have beat us to it.
+            </p>
+          </div>
         </div>
       </section>
-      <section>
-        <div>
+      <section class="exhibition-ecology exhibition-block">
+        <div class="exhibition-block__text">
           <h2>Ecology</h2>
           <p>
             As we learn more and more of the impact humans are having on the
@@ -155,36 +186,44 @@
           </p>
         </div>
       </section>
-      <section>
-        <div>
+      <section class="did-you-know">
+        <div class="exhibition-container did-you-know__text">
           <h2>Did you know?</h2>
           <p>27,000 trees get cut down every day to make toilet paper alone.</p>
         </div>
-        <!--img -->
+        <img src="images/idea.jpg" alt="sticker with an lightbulb drawing" />
       </section>
     </main>
-
     <footer>
-      <div>
+      <div class="footer__about">
         <h3>About us</h3>
         <a href="visit.html">Visit</a>
       </div>
-      <div>
+      <div class="footer__social">
         <h3>Social media</h3>
-        <div>
-          <i class="fab fa-youtube"></i>
-          <a href="">Youtube</a>
-        </div>
-        <div>
-          <i class="fab fa-facebook-square"></i>
-          <a href="">Facebook</a>
-        </div>
-        <div>
-          <i class="fab fa-instagram"></i>
-          <a href="">Instagram</a>
-        </div>
+        <a href="">
+          <div class="footer__social__box">
+            <i class="fab fa-youtube fa-2x"></i>
+            <p>Youtube</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="footer__social__box">
+            <i class="fab fa-facebook-square fa-2x"></i>
+            <p>Facebook</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="footer__social__box">
+            <i class="fab fa-instagram fa-2x"></i>
+            <p>Instagram</p>
+          </div>
+        </a>
       </div>
-      <p>@Copyright 2021 Community Science Museum, All rights reserved</p>
+      <div class="break"></div>
+      <p id="copyright">
+        @Copyright 2021 Community Science Museum, All rights reserved
+      </p>
     </footer>
   </body>
 </html>
