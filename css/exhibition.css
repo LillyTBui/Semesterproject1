@@ -7,6 +7,29 @@
     padding: 40px;
 }
 
+.section-a-lot-to-explore {
+    min-height: 95vh;
+}
+
+.section-a-lot-to-explore__text {
+    margin: 80px;
+    text-align: center;
+}
+
+.hexagon {
+    max-width: 300px;
+    transform:rotate(0.75turn);
+}
+
+.a-lot-to-explore {
+    display: grid;
+    justify-content: center;
+    margin: 60px;
+}
+.text {
+    display: none;
+}
+
 .name-generator {
     background-color: var(--color-dark-blue);
     color: white;
