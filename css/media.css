@@ -391,9 +391,6 @@
 }
 
 @media (min-width: 900px) {
-  .logo-text {
-    font-size: 1.3em;
-  }
   
   .welcome {
     background-image: url("../images/background-lg.jpg");
