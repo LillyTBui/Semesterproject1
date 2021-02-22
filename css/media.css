@@ -447,7 +447,7 @@
     color: var(--color-dark-blue);
     position: absolute;
     right: 10px;
-    bottom: 10vh;
+    bottom: 20vh;
     background-color: var(--color-purple);
   }
 
@@ -510,7 +510,7 @@
     right: 50px;
   }
   .welcome-intro {
-    bottom: 25vh;
+    bottom: 0vh;
   }
   
   .welcome-intro {
