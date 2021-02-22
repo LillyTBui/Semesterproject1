@@ -222,10 +222,6 @@
 
 @media (min-width: 800px) {
 
-  .logo-text {
-    font-size: 1.3em;
-  }
-
   .intro-exhibition__wrapper {
     margin-bottom: auto;
   }
@@ -395,9 +391,13 @@
 }
 
 @media (min-width: 900px) {
+  .logo-text {
+    font-size: 1.3em;
+  }
+  
   .welcome {
     background-image: url("../images/background-lg.jpg");
-    min-height: 70vh;
+    min-height: 80vh;
   }
   .welcome h2 {
     font-size: 0.9em;
@@ -435,7 +435,7 @@
 
   .welcome-intro {
     position: absolute;
-    bottom: 30vh;
+    bottom: 20vh;
     max-width: 190px;
     background-color: transparent;
     color: white;
@@ -447,7 +447,7 @@
     color: var(--color-dark-blue);
     position: absolute;
     right: 10px;
-    bottom: 30vh;
+    bottom: 10vh;
     background-color: var(--color-purple);
   }
 
@@ -506,7 +506,7 @@
     right: 50px;
   }
   .welcome-intro {
-    bottom: 10px;
+    bottom: 25vh;
   }
   
   .welcome-intro {
