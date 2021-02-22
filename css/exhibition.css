@@ -1,166 +1,166 @@
-
 .exhibition-welcome {
-    background-color: #F4A00B;
+  background-color: #f4a00b;
 }
 
 .exhibition-container {
-    padding: 40px;
+  padding: 40px;
 }
 
 .section-a-lot-to-explore {
-    min-height: 90vh;
+  min-height: 90vh;
 }
 
 .section-a-lot-to-explore__text {
-    margin: 80px;
-    text-align: center;
+  margin: 80px;
+  text-align: center;
 }
 
 .hexagon {
-    max-width: 300px;
-    transform:rotate(0.75turn);
+  max-width: 300px;
+  transform: rotate(0.75turn);
 }
 
 .a-lot-to-explore {
-    display: grid;
-    justify-content: center;
-    margin: 60px;
+  display: grid;
+  justify-content: center;
+  margin: 60px;
 }
 .text {
-    display: none;
+  display: none;
 }
 
 .name-generator {
-    background-color: var(--color-dark-blue);
-    color: white;
+  background-color: var(--color-dark-blue);
+  color: white;
 }
 
 .name-generator__text {
-    border-left-color: white;
+  border-left-color: white;
 }
 
 .name-generator__meaning {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
 
 .exhibition-same {
-    padding: 30px;
+  padding: 30px;
 }
 
 .exhibition-robotics__text {
-    background-color: #707070;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #707070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .exhibition-robotics__container {
-    display: grid;
-    grid-gap: 20px;
+  display: grid;
+  grid-gap: 20px;
 }
 
 .robot-game {
-    background-color: var(--color-light-gray);
-    padding: 30px;
+  background-color: var(--color-light-gray);
+  padding: 30px;
 }
 
 .robot-btn {
-    margin: 20px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
 }
 
 .robot-btn:hover {
-    background-color: var(--color-light-gray);
+  background-color: var(--color-light-gray);
 }
-.robot-game img{
-    max-width: 150px;
+.robot-game img {
+  max-width: 150px;
 }
 .exhibition-evolution__container {
-    display: grid;
-    grid-gap: 20px;
+  display: grid;
+  grid-gap: 20px;
 }
 
 .exhibition-evolution__text {
-    background-color: #4279A2;
+  background-color: #4279a2;
 }
 
 .exhibition-biology-container {
-    display: grid;
-    grid-gap: 15px;
+  display: grid;
+  grid-gap: 15px;
 }
-.exhibition-img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+.exhibition-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .exhibition__text {
-    padding: 30px;
-    color: white;
+  padding: 30px;
+  color: white;
 }
 
 .exhibition-biology1 {
-    background-color: #4983AE;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #4983ae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .exhibition-biology2 {
-    background-color: #597998;
+  background-color: #597998;
 }
 
-.exhibition-biology2-p{
-    padding-bottom: 30px;
+.exhibition-biology2-p {
+  padding-bottom: 30px;
 }
 
 .exhibition-block {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 50vh;
-    padding: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+  padding: 10px;
 }
 
 .exhibition-block__text {
-    padding: 30px;
-    margin: 20px;
-    max-width: 300px;
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
+  padding: 30px;
+  margin: 20px;
+  max-width: 300px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
 }
 
 .exhibition-cosmology {
-    background-image: url("../images/space.jpg");
+  background-image: url("../images/space.jpg");
 }
 .exhibition-ecology {
-    background-image: url("../images/ecology.jpg");
+  background-image: url("../images/ecology.jpg");
 }
 
 .did-you-know {
-    background-color: var(--color-purple);
+  background-color: var(--color-purple);
 }
 
 .did-you-know img {
-    display: none;
-    border-radius: 50%;
-    max-width: 50%;
-    margin: 20px 25%;
+  display: none;
+  border-radius: 50%;
+  max-width: 50%;
+  margin: 20px 25%;
 }
 
 .exhibition-container h2 {
-    font-size: 1.7em;
+  font-size: 1.7em;
 }
 
 /* links */
 
 .button {
-    padding: 10px 13px;
-    border-radius: 20px;
-    border-color: var(--color-dark-orange);
-    background-color: var(--color-dark-orange);
-    color: white;
-    text-transform: uppercase;
-    font-family: 'Boogaloo','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    letter-spacing: 0.02cm;
-    font-size: 1em;
+  padding: 10px 13px;
+  border-radius: 20px;
+  border-color: var(--color-dark-orange);
+  background-color: var(--color-dark-orange);
+  color: white;
+  text-transform: uppercase;
+  font-family: "Boogaloo", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+    sans-serif;
+  letter-spacing: 0.02cm;
+  font-size: 1em;
 }

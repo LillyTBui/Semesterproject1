@@ -147,7 +147,7 @@
   .text {
     display: initial;
   }
-  
+
   .section-a-lot-to-explore__text {
     margin: 40px;
   }
@@ -201,7 +201,7 @@
 
   .hexagon:hover {
     opacity: 0.8;
-}
+  }
 
   .exhibition-robotics__container {
     grid-template-columns: 60% 37%;
@@ -221,7 +221,6 @@
 }
 
 @media (min-width: 800px) {
-
   .intro-exhibition__wrapper {
     margin-bottom: auto;
   }
@@ -391,7 +390,6 @@
 }
 
 @media (min-width: 900px) {
-  
   .welcome {
     background-image: url("../images/background-lg.jpg");
     min-height: 80vh;
@@ -455,6 +453,7 @@
   .discover-planets__blocks {
     max-width: 11vw;
   }
+
   .light-blue-btn {
     font-size: 0.7em;
   }
@@ -478,7 +477,7 @@
   .logo-text {
     font-size: 1.3em;
   }
-  
+
   nav li {
     font-size: 1.2em;
   }
@@ -509,7 +508,7 @@
   .welcome-intro {
     bottom: 0vh;
   }
-  
+
   .welcome-intro {
     font-size: 1em;
     max-width: 230px;
@@ -529,7 +528,6 @@
   .exhibition-ecology {
     min-height: 60vh;
   }
-
 }
 
 @media (min-width: 1400px) {

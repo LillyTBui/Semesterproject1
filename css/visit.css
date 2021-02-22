@@ -34,7 +34,7 @@
 }
 
 .visit-extra-box {
-  position:relative;
+  position: relative;
   border: 4px solid white;
   border-radius: 30px;
   min-height: 410px;
@@ -55,4 +55,3 @@
   padding: 15px;
   bottom: 0px;
 }
-
