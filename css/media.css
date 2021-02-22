@@ -139,7 +139,7 @@
 
   /* Explore */
   .explore img {
-    height: 50vh;
+    height: 40vh;
   }
 
   /* Exhibiton */
@@ -147,7 +147,7 @@
   .text {
     display: initial;
   }
-
+  
   .section-a-lot-to-explore__text {
     margin: 40px;
   }
@@ -221,6 +221,11 @@
 }
 
 @media (min-width: 800px) {
+
+  .logo-text {
+    font-size: 1.3em;
+  }
+
   .intro-exhibition__wrapper {
     margin-bottom: auto;
   }
@@ -277,7 +282,7 @@
 
   .explore img {
     width: 40vw;
-    height: 50vh;
+    height: 25vh;
     margin: auto;
   }
   .explore-text-block {
@@ -355,6 +360,7 @@
   .visit-extra-info {
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
 
   .visit-extra-box {
@@ -429,7 +435,7 @@
 
   .welcome-intro {
     position: absolute;
-    bottom: 180px;
+    bottom: 30vh;
     max-width: 190px;
     background-color: transparent;
     color: white;
@@ -441,7 +447,7 @@
     color: var(--color-dark-blue);
     position: absolute;
     right: 10px;
-    bottom: 220px;
+    bottom: 30vh;
     background-color: var(--color-purple);
   }
 
@@ -457,17 +463,13 @@
   }
 
   /* Exhibition */
-
   .exhibition-same {
+    max-width: 900px;
     padding: 60px;
   }
 
   .exhibition-same h2 {
     margin-bottom: 15px;
-  }
-
-  .exhibition-ecology {
-    min-height: 85vh;
   }
 
   .exhibition-block__text {
@@ -506,9 +508,37 @@
   .welcome-intro {
     bottom: 10px;
   }
-
+  
   .welcome-intro {
     font-size: 1em;
     max-width: 230px;
+  }
+
+  /* Event */
+  .events-wrapper {
+    max-width: 1000px;
+  }
+
+  /* Explore */
+  .explore img {
+    height: 40vh;
+  }
+
+  /* Exhibition */
+  .exhibition-ecology {
+    min-height: 60vh;
+  }
+
+}
+
+@media (min-width: 1400px) {
+  /* Exhibition */
+  .exhibition-ecology {
+    min-height: 85vh;
+  }
+
+  /* Visit */
+  .visit-extra-box {
+    max-width: 20vw;
   }
 }
