@@ -50,32 +50,50 @@ h2 {
   opacity: 0.8;
 }
 
-.discover-planets {
+/* planets*/
+.discover{
+  margin: 10px auto 50px auto;
+  max-width: 1000px;
+}
+
+.planet-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.planet-viewport{
+  margin: 0px auto;
+  overflow: hidden;
+  width: 110px;
+}
+
+.block-container{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  width: fit-content;
+}
+
+.discover__blocks{
   text-align: center;
-  padding: 60px 10px;
+  width: 110px;
 }
 
-.discover-planets img {
-  width: 100%;
+.discover__blocks img{
+  max-width: 110px;
 }
 
-.discover-planets__blocks {
-  max-width: 24vw;
-  text-align: center;
-  display: inline-block;
-}
-
-.mars,
-.jupiter,
-.saturn,
-.uranus,
-.neptune {
-  display: none;
-}
-
-.saturn-img {
+.saturn{
   margin-bottom: 25px;
 }
+
+.arrows{
+  font-size: 50px;
+  margin: 20px;
+}
+
 .young-star {
   background-image: url(../images/science-background.jpg);
   background-size: cover;

@@ -1,6 +1,10 @@
 /** @format */
 
 @media (min-width: 400px) {
+  .planet-viewport{
+    width: 220px;
+  }
+
   .light-blue-btn {
     font-size: 0.6em;
   }
@@ -19,13 +23,10 @@
   }
 }
 @media (min-width: 500px) {
-  .mars {
-    display: inline-block;
+  .planet-viewport{
+    width: 330px;
   }
 
-  .discover-planets__blocks {
-    max-width: 20vw;
-  }
   .light-blue-btn {
     font-size: 0.7em;
   }
@@ -58,6 +59,16 @@
   }
 }
 
+@media (min-width: 600px){
+  .planet-viewport{
+    width: 440px;
+  }
+
+  .planet-details__img{
+    max-width: 500px;
+  }
+}
+
 @media (min-width: 650px) {
   nav {
     display: inline-flex;
@@ -80,13 +91,6 @@
     display: inline-flex;
   }
 
-  .jupiter {
-    display: inline-block;
-  }
-
-  .discover-planets__blocks {
-    max-width: 15vw;
-  }
   .light-blue-btn {
     font-size: 0.8em;
   }
@@ -220,7 +224,17 @@
   }
 }
 
+@media (min-width: 700px){
+  .planet-viewport{
+    width: 550px;
+  }
+}
+
 @media (min-width: 800px) {
+  .planet-viewport{
+    width: 660px;
+  }
+
   .intro-exhibition__wrapper {
     margin-bottom: auto;
   }
@@ -252,13 +266,6 @@
     grid-column: 2/3;
     display: flex;
     flex-direction: column;
-  }
-  .saturn {
-    display: inline-block;
-  }
-
-  .discover-planets__blocks {
-    max-width: 13vw;
   }
 
   /* Explore */
@@ -379,17 +386,14 @@
     padding: 40px 70px;
   }
 
-  .did-you-know__text {
-    max-width: 300px;
-  }
-  .did-you-know img {
-    max-width: 20%;
-    margin: 20px auto;
-    display: initial;
-  }
+ 
 }
 
 @media (min-width: 900px) {
+  .planet-viewport{
+    width: 770px;
+  }
+
   .welcome {
     background-image: url("../images/background-lg.jpg");
     min-height: 80vh;
@@ -446,14 +450,6 @@
     background-color: var(--color-purple);
   }
 
-  .uranus {
-    display: inline-block;
-  }
-
-  .discover-planets__blocks {
-    max-width: 11vw;
-  }
-
   .light-blue-btn {
     font-size: 0.7em;
   }
@@ -462,18 +458,44 @@
   .exhibition-same {
     max-width: 900px;
     padding: 60px;
+    margin: auto;
   }
 
   .exhibition-same h2 {
     margin-bottom: 15px;
   }
 
-  .exhibition-block__text {
-    margin: 50px;
+  .did-you-know__text {
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .did-you-know img {
+    max-width: 20%;
+    margin: 20px auto;
+    display: initial;
+  }
+
+  .name-generator__container{
+    margin: auto;
+    max-width: 900px;
+  }
+
+  .exhibition__text-container{
+    max-width: 900px;
+    margin: auto;
   }
 }
 
 @media (min-width: 1100px) {
+  .planet-viewport{
+    width: 880px;
+  }
+
+  #left, #right{
+    display: none;
+  }
+
   .logo-text {
     font-size: 1.3em;
   }
@@ -482,13 +504,6 @@
     font-size: 1.2em;
   }
 
-  .neptune {
-    display: inline-block;
-  }
-
-  .discover-planets__blocks {
-    max-width: 10vw;
-  }
   .light-blue-btn {
     font-size: 0.9em;
   }
