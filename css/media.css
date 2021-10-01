@@ -58,6 +58,12 @@
   }
 }
 
+@media (min-width: 600px){
+  .planet-details__img{
+    max-width: 500px;
+  }
+}
+
 @media (min-width: 650px) {
   nav {
     display: inline-flex;
