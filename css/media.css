@@ -379,14 +379,7 @@
     padding: 40px 70px;
   }
 
-  .did-you-know__text {
-    max-width: 300px;
-  }
-  .did-you-know img {
-    max-width: 20%;
-    margin: 20px auto;
-    display: initial;
-  }
+ 
 }
 
 @media (min-width: 900px) {
@@ -462,14 +455,32 @@
   .exhibition-same {
     max-width: 900px;
     padding: 60px;
+    margin: auto;
   }
 
   .exhibition-same h2 {
     margin-bottom: 15px;
   }
 
-  .exhibition-block__text {
-    margin: 50px;
+  .did-you-know__text {
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .did-you-know img {
+    max-width: 20%;
+    margin: 20px auto;
+    display: initial;
+  }
+
+  .name-generator__container{
+    margin: auto;
+    max-width: 900px;
+  }
+
+  .exhibition__text-container{
+    max-width: 900px;
+    margin: auto;
   }
 }
 

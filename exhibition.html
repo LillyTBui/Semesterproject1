@@ -94,17 +94,19 @@
       </section>
 
       <section id="cosmology" class="exhibition-cosmology exhibition-block">
-        <div class="exhibition-block__text">
-          <h2>Cosmology</h2>
-          <p>
-            Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and
-            what we can see and know about the universe around us. We’ll locate the various constellations and galaxies
-            that can be seen and learn a bit about the early navigators who used the stars to travel by.
-          </p>
-          <p>
-            Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the latest
-            exploration of the planets in our solar system.
-          </p>
+        <div class="exhibition__text-container">
+          <div class="exhibition-block__text">
+            <h2>Cosmology</h2>
+            <p>
+              Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and
+              what we can see and know about the universe around us. We’ll locate the various constellations and galaxies
+              that can be seen and learn a bit about the early navigators who used the stars to travel by.
+            </p>
+            <p>
+              Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the latest
+              exploration of the planets in our solar system.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -146,14 +148,16 @@
         <img src="images/dinosaur.jpg" alt="picture of a tyrannosaurus rex" class="exhibition-img" />
       </section>
       <div class="exhibition-container name-generator">
-        <div class="sub-header name-generator__text">
-          <h2>Random dinosaur name generator!</h2>
+        <div class="name-generator__container">
+          <div class="sub-header name-generator__text">
+            <h2>Random dinosaur name generator!</h2>
+          </div>
+          <div class="name-generator__meaning">
+            <p id="dinosaurName"></p>
+            <p id="nameMeaning"></p>
+          </div>
+          <button onclick="newName(), meaning()" class="button">Click on me!</button>
         </div>
-        <div class="name-generator__meaning">
-          <p id="dinosaurName"></p>
-          <p id="nameMeaning"></p>
-        </div>
-        <button onclick="newName(), meaning()" class="button">Click on me!</button>
       </div>
       <section id="biology" class="exhibition-same">
         <h2>Biology and medicine</h2>
@@ -180,25 +184,27 @@
         </div>
       </section>
       <section id="ecology" class="exhibition-ecology exhibition-block">
-        <div class="exhibition-block__text">
-          <h2>Ecology</h2>
-          <p>
-            As we learn more and more of the impact humans are having on the planet, the more important it becomes that
-            scientists explore how to create a sustainable future not just for humans but for the whole planet.
-          </p>
-          <p>
-            In our ecology section of the museum, we unpack the dangers we currently face including global warming,
-            extinction of species, and pollution. But we also focus on the positive ways we can all contribute to a
-            brighter future.
-          </p>
+        <div class="exhibition__text-container">
+          <div class="exhibition-block__text">
+            <h2>Ecology</h2>
+            <p>
+              As we learn more and more of the impact humans are having on the planet, the more important it becomes that
+              scientists explore how to create a sustainable future not just for humans but for the whole planet.
+            </p>
+            <p>
+              In our ecology section of the museum, we unpack the dangers we currently face including global warming,
+              extinction of species, and pollution. But we also focus on the positive ways we can all contribute to a
+              brighter future.
+            </p>
+          </div>
         </div>
       </section>
       <section class="did-you-know">
-        <div class="exhibition-container did-you-know__text">
-          <h2>Did you know?</h2>
-          <p>27,000 trees get cut down every day to make toilet paper alone.</p>
-        </div>
-        <img src="images/idea.jpg" alt="sticker with an lightbulb drawing" />
+          <div class="exhibition-container did-you-know__text">
+            <h2>Did you know?</h2>
+            <p>27,000 trees get cut down every day to make toilet paper alone.</p>
+          </div>
+          <img src="images/idea.jpg" alt="sticker with an lightbulb drawing" />
       </section>
     </main>
     <footer>
