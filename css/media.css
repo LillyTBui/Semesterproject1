@@ -1,6 +1,10 @@
 /** @format */
 
 @media (min-width: 400px) {
+  .planet-viewport{
+    width: 220px;
+  }
+
   .light-blue-btn {
     font-size: 0.6em;
   }
@@ -19,13 +23,10 @@
   }
 }
 @media (min-width: 500px) {
-  .mars {
-    display: inline-block;
+  .planet-viewport{
+    width: 330px;
   }
 
-  .discover-planets__blocks {
-    max-width: 20vw;
-  }
   .light-blue-btn {
     font-size: 0.7em;
   }
@@ -59,6 +60,10 @@
 }
 
 @media (min-width: 600px){
+  .planet-viewport{
+    width: 440px;
+  }
+
   .planet-details__img{
     max-width: 500px;
   }
@@ -86,13 +91,6 @@
     display: inline-flex;
   }
 
-  .jupiter {
-    display: inline-block;
-  }
-
-  .discover-planets__blocks {
-    max-width: 15vw;
-  }
   .light-blue-btn {
     font-size: 0.8em;
   }
@@ -226,7 +224,17 @@
   }
 }
 
+@media (min-width: 700px){
+  .planet-viewport{
+    width: 550px;
+  }
+}
+
 @media (min-width: 800px) {
+  .planet-viewport{
+    width: 660px;
+  }
+
   .intro-exhibition__wrapper {
     margin-bottom: auto;
   }
@@ -258,13 +266,6 @@
     grid-column: 2/3;
     display: flex;
     flex-direction: column;
-  }
-  .saturn {
-    display: inline-block;
-  }
-
-  .discover-planets__blocks {
-    max-width: 13vw;
   }
 
   /* Explore */
@@ -389,6 +390,10 @@
 }
 
 @media (min-width: 900px) {
+  .planet-viewport{
+    width: 770px;
+  }
+
   .welcome {
     background-image: url("../images/background-lg.jpg");
     min-height: 80vh;
@@ -445,14 +450,6 @@
     background-color: var(--color-purple);
   }
 
-  .uranus {
-    display: inline-block;
-  }
-
-  .discover-planets__blocks {
-    max-width: 11vw;
-  }
-
   .light-blue-btn {
     font-size: 0.7em;
   }
@@ -491,6 +488,14 @@
 }
 
 @media (min-width: 1100px) {
+  .planet-viewport{
+    width: 880px;
+  }
+
+  #left, #right{
+    display: none;
+  }
+
   .logo-text {
     font-size: 1.3em;
   }
@@ -499,13 +504,6 @@
     font-size: 1.2em;
   }
 
-  .neptune {
-    display: inline-block;
-  }
-
-  .discover-planets__blocks {
-    max-width: 10vw;
-  }
   .light-blue-btn {
     font-size: 0.9em;
   }
