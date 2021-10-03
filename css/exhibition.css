@@ -59,6 +59,7 @@
 }
 
 .robot-game {
+  display:none;
   background-color: var(--color-light-gray);
   padding: 30px;
 }

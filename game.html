@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="We have a large exhibition ranging from cosmology to ecology." />
+    <title>Community Science Museum | Game</title>
+    <link href="css/styles.css" rel="stylesheet" />
+     <link href="css/game.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Indie+Flower&family=Londrina+Solid&family=Yusei+Magic&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/b9235904b4.js" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="index.html"><img src="images/logo-sm.png" alt="Logo of community science museum" class="logo" /></a>
+        <a href="index.html" class="logo-text">Community Science Museum</a>
+      </div>
+      <label for="hamburger-menu"><i class="fas fa-bars fa-2x" id="hamburger-icon"></i></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <ul>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="exhibition.html" class="active">Exhibition</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="visit.html">Visit</a></li>
+        </ul>
+        <div class="search-btn">
+          <i class="fas fa-search" id="search-icon"></i>
+          <input type="text" placeholder="Search" id="search-field" />
+        </div>
+      </nav>
+    </header>
+
+    <main>
+        <section class="sub-header-welcome game-welcome">
+            <div class="sub-header">
+              <h1>Game</h1>
+              <p>Navigate Rob the Robot through the museum in our interactive game.</p>
+            </div>
+          </section>
+          <section class="game">
+              <h1>Rob the robot</h1>
+              <p>Use the keyboard UP, DOWN, LEFT and RIGHT key to move Rob around.</p>
+              <div id="game-container"></div>
+          </section>
+    </main>
+    <footer>
+      <div class="footer__about">
+        <h3>About us</h3>
+        <a href="visit.html">Visit</a>
+      </div>
+      <div class="footer__social">
+        <h3>Social media</h3>
+        <a href="">
+          <div class="footer__social__box">
+            <i class="fab fa-youtube fa-2x"></i>
+            <p>Youtube</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="footer__social__box">
+            <i class="fab fa-facebook-square fa-2x"></i>
+            <p>Facebook</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="footer__social__box">
+            <i class="fab fa-instagram fa-2x"></i>
+            <p>Instagram</p>
+          </div>
+        </a>
+      </div>
+      <div class="break"></div>
+      <p id="copyright">@Copyright 2021 Community Science Museum, All rights reserved</p>
+    </footer>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+    <script src="javascript/game/game.js"></script>
+  </body>
+</html>

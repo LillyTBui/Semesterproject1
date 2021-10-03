@@ -15,7 +15,8 @@
   }
 
   /* Exhibition */
-  .robot-game {
+  .robot-game__container {
+    margin-left: 10%;
     display: flex;
   }
   .robot-game__text {
@@ -371,6 +372,9 @@
   }
 
   /* Exhibition */
+  .robot-game{
+    display: block;
+  }
   .exhibition-biology-container {
     grid-template-rows: 300px 200px;
   }

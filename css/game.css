@@ -1,0 +1,20 @@
+.game-welcome{
+    background-color: var(--color-light-gray);
+}
+
+.game{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-color: white;
+}
+
+.game h1{
+    margin-bottom: 10px;
+}
+
+.game p{
+    margin-bottom: 20px;
+}
